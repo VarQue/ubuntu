@@ -14,7 +14,6 @@ RUN curl  https://storage.googleapis.com/git-repo-downloads/repo > /usr/local/bi
 
 ENV LANG C.UTF-8
 
-RUN npm install web-terminal -g
 
 EXPOSE 8088
 EXPOSE 22
