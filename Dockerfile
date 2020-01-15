@@ -17,5 +17,3 @@ ENV LANG C.UTF-8
 
 EXPOSE 8088
 EXPOSE 22
-
-CMD["web-terminal", "--port", "8088"]
